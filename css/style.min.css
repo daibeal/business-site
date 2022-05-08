@@ -755,6 +755,10 @@ section {
     width: 100%; }
   .progress {
     height: 30px;
-    font-size: 16px; } }
+    font-size: 16px; } 
+  .display-1 {
+    font-size: 4rem !important; 
+  }
+  }
 
 /*=====  End of RESPONSIVE  ======*/
