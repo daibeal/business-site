@@ -1,2 +1,0 @@
-# business-site
-Daibeal.com
