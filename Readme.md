@@ -1,1 +1,1 @@
-# [DAIBEAL](www.daibeal.com)
+# [DAIBEAL](http://www.daibeal.com)
