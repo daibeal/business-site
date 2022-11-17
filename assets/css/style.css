@@ -1688,3 +1688,26 @@ section {
   color: #fff;
   text-decoration: none;
 }
+#heroVideo{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+.message-row{
+  /* add darker backgrond*/
+  background-color: #6844b6;
+  /* add padding */
+  padding: 10px;
+  /* add margin */
+  margin: 10px;
+  /* add border */
+  
+  /* add border radius */
+  border-radius: 5px;
+  /* add box shadow */
+  
+}
