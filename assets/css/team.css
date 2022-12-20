@@ -22,9 +22,11 @@
     margin-top: 10px;
   }
   .squared{
+    margin-top: 30px;
     object-fit: cover;
-    border-radius: 20px;
-
+    width: 200px !important;
+    height: 200px !important;
+    border-radius: 100%;
+    box-shadow: 0 0 0 5px #892be2aa;
 
   }
- 
