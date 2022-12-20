@@ -28,5 +28,20 @@
     height: 200px !important;
     border-radius: 100%;
     box-shadow: 0 0 0 5px #892be2aa;
+    /*add webkit support*/
+
+    -webkit-box-shadow: 0 0 0 5px #892be2aa;
+    -moz-box-shadow: 0 0 0 5px #892be2aa;
+    -o-box-shadow: 0 0 0 5px #892be2aa;
+    -ms-box-shadow: 0 0 0 5px #892be2aa;
+
+    /*add border radius support for webkit*/
+
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -o-border-radius: 100%;
+    -ms-border-radius: 100%;
+
+    
 
   }
