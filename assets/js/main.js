@@ -1,9 +1,3 @@
-/**
-* Template Name: Techie - v4.9.1
-* Template URL: https://bootstrapmade.com/techie-free-skin-bootstrap-3/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 (function() {
   "use strict";
 
@@ -267,5 +261,30 @@
    * Initiate Pure Counter 
    */
   new PureCounter();
+
+  var degrees = 0;
+var prevScroll = 0;
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 0) {
+    if (prevScroll > $(window).scrollTop()) {
+      $('.woo').css({
+        '-webkit-transform': 'rotate(' + degrees+++'deg)',
+        '-moz-transform': 'rotate(' + degrees+++'deg)',
+        '-ms-transform': 'rotate(' + degrees+++'deg)',
+        'transform': 'rotate(' + degrees+++'deg)'
+      });
+      console.log('prevScroll greater:', prevScroll)
+    } else if (prevScroll < $(window).scrollTop()) {
+      $('.woo').css({
+        '-webkit-transform': 'rotate(' + degrees--+'deg)',
+        '-moz-transform': 'rotate(' + degrees--+'deg)',
+        '-ms-transform': 'rotate(' + degrees--+'deg)',
+        'transform': 'rotate(' + degrees--+'deg)'
+      });
+      console.log('prevScroll less:', prevScroll)
+    }
+    prevScroll = $(window).scrollTop()
+  }
+})
 
 })()
